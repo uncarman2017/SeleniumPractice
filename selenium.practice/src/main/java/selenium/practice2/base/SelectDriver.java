@@ -6,9 +6,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class SelectDriver {
 
-	private static String chromeDriverPath = "D:\\.m2\\chromedriver_win32\\chromedriver.exe";
+	private static String chromeDriverPath = "D:\\.m2\\selenium\\chromedriver_win32\\chromedriver.exe";
 
-	private static String firefoxDriverPath = "D:\\.m2\\geckodriver-v0.22.0-win64\\geckodriver.exe";
+	private static String firefoxDriverPath = "D:\\.m2\\selenium\\geckodriver-v0.22.0-win64\\geckodriver.exe";
 
 	public WebDriver driverName(String browserName) {
 		if(browserName.equalsIgnoreCase("chrome")) {
