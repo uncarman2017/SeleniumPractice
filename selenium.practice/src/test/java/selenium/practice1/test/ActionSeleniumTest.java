@@ -19,7 +19,7 @@ public class ActionSeleniumTest extends TestCase {
     public void setUp() throws Exception {
         super.setUp();
         //设置系统属性
-        System.setProperty("webdriver.chrome.driver", "D:\\.m2\\chromedriver_win32\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "D:\\.m2\\selenium\\chromedriver_win32\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://www.imooc.com");
 //		driver.manage().window().maximize();

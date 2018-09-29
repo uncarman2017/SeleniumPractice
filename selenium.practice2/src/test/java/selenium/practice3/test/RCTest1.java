@@ -4,7 +4,9 @@ package selenium.practice3.test;
 import com.thoughtworks.selenium.DefaultSelenium;
 import com.thoughtworks.selenium.SeleneseTestCase;
 import com.thoughtworks.selenium.Selenium;
-import org.testng.annotations.Test;
+import junit.framework.TestCase;
+import org.junit.Test;
+
 
 public class RCTest1 extends SeleneseTestCase {
 
